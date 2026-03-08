@@ -13,4 +13,4 @@ Bu proje CDN kullanmaz. Asagidaki dosyalari **lokal** olarak bu klasor altina ko
 - `public/assets/vendor/sweetalert2/sweetalert2.all.min.js`
 - `public/assets/vendor/sweetalert2/sweetalert2.min.css`
 
-Not: Projede placeholder dosyalar var; gercek dosyalarla degistirin.
+Not: Bu dosyalar projede lokal olarak mevcuttur. Surum guncellemesi yapacaksaniz ayni dosya adlarini koruyun.

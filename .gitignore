@@ -1,2 +1,6 @@
 /vendor/
-/.env
+/public/assets/vendor/*
+!/public/assets/vendor/.gitkeep
+.env
+/storage/logs/*
+!/storage/logs/.gitkeep

@@ -64,7 +64,7 @@ SOURCE database/seed.sql;
 
 ## Front-End Vendor Dosyalari
 
-CDN kullanilmiyor. Lokalde tutulmasi gereken dosyalar:
+CDN kullanilmiyor. Asagidaki vendor dosyalari lokal olarak `public/assets/vendor/` altina yerlestirildi:
 
 - `public/assets/vendor/bootstrap/...`
 - `public/assets/vendor/jquery/...`
@@ -72,7 +72,7 @@ CDN kullanilmiyor. Lokalde tutulmasi gereken dosyalar:
 - `public/assets/vendor/select2/...`
 - `public/assets/vendor/sweetalert2/...`
 
-Detay listesi: `public/assets/vendor/README.md`
+Detay liste ve yollar: `public/assets/vendor/README.md`
 
 ## Calistirma
 
@@ -97,3 +97,8 @@ php -S localhost:8000 -t public
 - `/admin/*` route'lari login ister.
 - `/admin/customers` ve `/admin/customers/dt` icin gerekli permission: `customers.view`
 - DataTables endpoint'te order/sort whitelist ile guvenli hale getirildi.
+
+## Front-end Asset Notu
+
+- Vendor JS/CSS dosyalari repoda lokal olarak mevcuttur (`public/assets/vendor/`).
+- Guncelleme yapmak isterseniz ayni dosya yollarini koruyarak daha yeni surumlerle degistirebilirsiniz.

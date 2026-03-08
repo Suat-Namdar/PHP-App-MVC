@@ -1,0 +1,46 @@
+public/
+  index.php
+  assets/
+    css/
+    js/
+app/
+  Core/
+    Router.php
+    Request.php
+    Response.php
+    Auth.php
+    Csrf.php
+    View.php
+    Db.php
+  Controllers/
+    AuthController.php
+    UserController.php
+    CustomerController.php
+  Middleware/
+    AuthMiddleware.php
+    PermissionMiddleware.php
+  Models/
+    User.php
+    Role.php
+    Permission.php
+    Customer.php
+  Views/
+    layouts/
+      main.php
+      auth.php
+    auth/
+      login.php
+    users/
+      index.php
+    customers/
+      index.php
+config/
+  app.php
+  database.php
+bootstrap/
+  app.php
+storage/
+  logs/
+vendor/
+composer.json
+.env
